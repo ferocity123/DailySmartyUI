@@ -1,4 +1,5 @@
 import { SET_RECENT_POST } from "./types";
+import recentPosts from "../components/recentPost";
 import axios from "axios";
 
 

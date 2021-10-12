@@ -1,17 +1,20 @@
 import { SET_RECENT_POST } from "../actions/types";
-import recentPost from "../components/recentPost";
+
 
 
 const INIT_STATE = {
-    post: [],
-    recentPost: []
+    posts: [],
+    recentPosts: []
 }
 
 export default function (state= INIT_STATE, action) {
     switch (action.type) {
         case SET_RECENT_POST:
+            const  recentPosts = action.payload
 
-          return [...state, recentPost: action.payload]
+          return {...state,
+                 recentPosts
+            }
         default:
             return state;
     }
