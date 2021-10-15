@@ -1,9 +1,9 @@
 import { SET_RECENT_POST } from "./types";
-import recentPosts from "../components/recentPost";
+
 import axios from "axios";
 
 
-export function fetchRecentPost() {
+export function fetchRecentPosts() {
     return function(dispatch) {
        axios.get('https://api.dailysmarty.com/posts')
        .then( response => {
