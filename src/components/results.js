@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SearchBar from "./searchbar";
 import Logo from "./logo";
 
 
@@ -7,7 +8,8 @@ class Results extends Component {
         return (
             <div>
                 <h1>Results</h1>
-                <Logo/>
+                <Logo size={55}/>
+                <SearchBar/>
 
             </div>
         )
