@@ -1,7 +1,4 @@
-import { 
-    SET_RECENT_POSTS,
-    SET_RESULTS_POSTS 
-} from "./types";
+import { SET_RECENT_POSTS, SET_RESULTS_POSTS } from "./types"
 
 import axios from "axios";
 
