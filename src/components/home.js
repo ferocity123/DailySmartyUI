@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Logo from "./logo"
 import SearchBar from './searchbar';
-import RecentPost from './recentPost';
+import RecentPosts from './recentPosts';
 import { connect } from "react-redux";
 import * as actions from "../actions";
 
@@ -19,7 +19,7 @@ class Home extends Component {
        <div>
        <Logo/>
        <SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)}/>
-       <RecentPost/>
+       <RecentPosts/>
        </div>
       </div>
     );
