@@ -34,18 +34,17 @@ class Post extends Component {
     }
 
     render() {
-       
-    if(this.props.type == 'recent') {
-        return (
-            <li className="recent-post">
-                <div className="recent-post__title">
-                    {this.props.title}
-                </div>
-                <div className="recent-post__topics">
-                    {this.renderTopics()}
-                </div>
-            </li>
-        )
+        if(this.props.type == 'recent') {
+            return (
+                <li className="recent-post">
+                    <div className="recent-post__title">
+                        {this.props.title}
+                    </div>
+                    <div className="recent-post__topics">
+                        {this.renderTopics()}
+                    </div>
+                </li>
+            )
     } else if(this.props.type == 'results') {
         return (
             <li className="result-post">

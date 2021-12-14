@@ -20,15 +20,21 @@ body {
     width: 70vw;
     display: grid;
     align-content: space-around;
-    justify-items: stretch;
+    // justify-items: stretch;
 }
 
 .logo-main,
-.recent-posts
-{
+.recent-posts {
     display: grid;
     justify-items: center;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
 
 @import "./searchBar";
+@import "./recentPosts";
