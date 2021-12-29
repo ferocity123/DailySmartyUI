@@ -43,3 +43,20 @@
 
     }
 } 
+
+.post-link {
+    min-height: 70px;
+    display: flex;
+
+    .post-link__box {
+        min-width: 70px;
+        background-color: rgb(117, 111, 111);
+        margin-right: 16px;
+    }
+
+    .post-link__link a {
+        color: rgb(117, 111, 111);
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
