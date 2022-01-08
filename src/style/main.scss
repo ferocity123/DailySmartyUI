@@ -28,6 +28,12 @@ ul {
     list-style-type: none;
 }
 
+.no-content {
+    color: rgb(145, 122, 122);
+    font-size: 14px;
+    line-height: 17px;
+}
+
 @import "./mixins";
 @import "./searchBar";
 @import "./recentPosts";
